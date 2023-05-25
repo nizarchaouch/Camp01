@@ -1,0 +1,30 @@
+#serc{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#serc img{
+    width: 100px;
+    height: 100px;
+}
+#serc p{
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: medium;
+}
+#serc button{
+    color:aliceblue;
+    background-color: var(--primary-color);
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+#serc button:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+#doc1,#doc2,#doc3,#doc4{
+    display: inline;
+}
+#more1,#more4,#more4,#more4{
+    display: none;
+}
